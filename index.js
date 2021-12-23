@@ -1,5 +1,5 @@
 const Discord = require("discord.js");
-const Insta = require("./insta.js");
+const Insta = require("@androz2091/insta.js");
 
 const Client = new Discord.Client({
     intents: [

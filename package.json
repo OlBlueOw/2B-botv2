@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@androz2091/insta.js": "^1.6.1",
+    "discord.js": "^13.3.1",
+    "ytdl-core": "^4.9.2"
+  }
+}

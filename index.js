@@ -154,5 +154,5 @@ Client.on("voiceStateUpdate", (newVoiceState) => {
     }
 })
 
-Client.login();
-Instagram.login();
+Client.login(process.env.TOKEN);
+Instagram.login(process.env.LOGIN_INSTAGRAM, process.env.PASSWORD_INSTAGRAM);

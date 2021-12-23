@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "discord.js": "^13.3.1",
+    "get-urls": "^10.0.1",
     "instagram_mqtt": "^1.2.2"
   },
   "engines": {

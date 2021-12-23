@@ -383,9 +383,6 @@ class Client extends EventEmitter {
         await ig.realtime.connect({
             irisData: await ig.feed.directInbox().request()
         })
-        // PartialObserver<FbnsNotificationUnknown>
-        ig.fbns.push$.subscribe((data) => this.handleFbnsReceive(data))
-
         await ig.fbns.connect({
             autoReconnect: true
         })

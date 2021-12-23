@@ -154,5 +154,5 @@ Client.on("voiceStateUpdate", (newVoiceState) => {
     }
 })
 
-Client.login("ODY4MDU1OTI2MjE1NjgwMDEx.YPqGFA.jL8_fYBDXIh1sgNf6yUHS0irEJQ");
-Instagram.login('2b_bot', '2BISGOlBlue97412!');
+Client.login();
+Instagram.login();
